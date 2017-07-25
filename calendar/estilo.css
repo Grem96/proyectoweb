@@ -1,0 +1,147 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #f2f2f2;
+}
+header{
+	width:100%;
+}
+
+nav{
+	background-color: green;
+	width: 100%;
+	height: 60px;
+}
+nav ul{
+	padding: 0px 0px 0px 500px;
+}
+	nav li{
+	left: 5%;
+	display: inline-block;
+	list-style-type: none;
+	margin: -100px 0px 0px 0px;
+}
+nav a{
+	font-size: 20px;
+	padding: 15px;
+	text-decoration: none;
+	color: #fff;
+	font-weight: bold;
+}
+.wrap {
+  width: 90%;
+  max-width: 800px;
+  padding: 40px;
+  margin: auto;
+  background: #fff;
+  box-shadow: 0px 0px 3px grey; 
+}
+ .vertical-bar {
+  border-left: 1px solid #fff;
+  width:1px;
+  height:500px;
+}
+footer{
+	background-color: #604214;
+	height: 50px;
+	/*margin-top: 45px;*/
+	text-align: center;
+	line-height: 50px;
+	color: #f7f7f7;
+	font-size: 0.8em;
+}
+footer.mala{
+  margin-top: 550px;
+}
+/*********************SlideShow*************************************/
+.main{
+	width: 90%;
+	max-width: 1000px;
+	margin: 20px auto;
+}
+.slides {
+	width: 100%;
+}
+.slides img{
+	width: 100%;
+}
+.slidesjs-pagination{
+	background: #424242;
+	list-style: none;
+	overflow: hidden;
+}
+.slidesjs-pagination li{
+	float:left;
+}
+.slidesjs-pagination li a{
+	display: block;
+	padding: 10px 20px;
+	color:#fff;
+	text-decoration: none;
+}
+.slides .active {
+	background: black;
+}
+.slidesjs-navigation{
+	background: black;
+	color:#fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 20px;
+	float: right;
+}
+
+/******************************* estilo de la parte de las reservaciones ********/
+
+.a{
+  border-radius: 50%;
+  border-width: 5px;
+  width: 180px;
+  height: 140px;
+}
+
+section.cuadro-reserv1{
+  width: 300px;
+  height: 190px;
+  margin-left: 80px;
+}
+
+section.cuadro-reserv2{
+  width: 300px;
+  height: 190px;
+  float: right;
+  margin-top: -189px;
+}
+
+section.cuadro-reserv3{
+  width: 300px;
+  height: 190px;
+  margin-left: 80px;
+  padding-top: 60px;
+}
+
+section.cuadro-reserv4{
+  width: 300px;
+  height: 190px;
+  float: right;
+  margin-top: -189px;
+}
+
+.l{
+  text-decoration: none;
+}
+
+a:hover{
+  color: red;
+}
+a:actived{
+  color: white;
+}
+.l a:visited{
+  color: black;
+}
+
+/************** Calendario div *********************/
